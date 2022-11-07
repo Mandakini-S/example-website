@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    width: 1322px;
+    height: 91px;
+    left: calc(50% - 1322px/2);
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    position: absolute;
+    width: 118.13px;
+    height: 86.4px;
+    top: 8px;
+    left: 89px;
+
+}
+
+
+#navbar {
+    display: flex;
+    /* position: absolute; */
+    margin-left: calc(50% - 815px/2 + 595px);
+    width: 815px;
+    height: 58px;
+    list-style: none;
+}
+
+#navbar li a {
+    display: flex;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    color: rgb(73, 73, 73);
+    margin: 1.3em;
+    font-weight: bold;
+    width: 76px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    ;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 112px 0px;
+    gap: 80px;
+    position: absolute;
+    width: 1044px;
+    height: 625px;
+    left: calc(50% - 1044px/2 - 39px);
+    top: 62px;
+    
+
+}
+
+#container h5 {
+    width: 81px;
+    height: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.1px;
+
+    color: #FC724D;
+}
+
+#container h1 {
+    width: 561px;
+    height: 160px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+
+}
+
+#container h4{
+    width: 490px;
+height: 60px;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+letter-spacing: 0.2px;
+color: #737373;
+font-family: 'Montserrat', sans-serif;
+}
+
+#container button{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 15px 40px;
+gap: 10px;
+
+width: 187px;
+height: 52px;
+border: #FC724D;
+background: #FC724D;
+border-radius: 5px;
+}
+
+#container button h5{
+    width: 167px;
+height: 22px;
+
+/* btn-text */
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+
+text-align: center;
+letter-spacing: 0.2px;
+color: #FFFFFF;
+
+}
