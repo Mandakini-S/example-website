@@ -4,10 +4,11 @@
 }
 
 header {
+    
     position: absolute;
-    width: 1322px;
+    width: 1483px;
     height: 91px;
-    left: calc(50% - 1322px/2);
+    left: calc(50% - 1483px/2);
     top: 0px;
 }
 
@@ -51,7 +52,7 @@ nav {
     ;
 }
 
-#container {
+#container1 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,14 +61,14 @@ nav {
     position: absolute;
     width: 1044px;
     height: 625px;
-    left: calc(50% - 1044px/2 - 39px);
+    left: calc(50% - 1044px/2 - 125px);
     top: 62px;
     
 
 }
 
-#container h5 {
-    width: 81px;
+ h5 {
+    width: 576px;
     height: 24px;
     font-style: normal;
     font-weight: 700;
@@ -79,8 +80,8 @@ nav {
     color: #FC724D;
 }
 
-#container h1 {
-    width: 561px;
+ h1 {
+    width: 576px;
     height: 160px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -91,9 +92,8 @@ nav {
     color: #252B42;
 
 }
-
-#container h4{
-    width: 490px;
+ h4{
+    width: 576px;
 height: 60px;
 font-style: normal;
 font-weight: 400;
@@ -104,7 +104,7 @@ color: #737373;
 font-family: 'Montserrat', sans-serif;
 }
 
-#container button{
+#container1 button{
     display: flex;
 flex-direction: column;
 align-items: center;
@@ -118,7 +118,7 @@ background: #FC724D;
 border-radius: 5px;
 }
 
-#container button h5{
+#container1 button h5{
     width: 167px;
 height: 22px;
 
@@ -133,3 +133,65 @@ letter-spacing: 0.2px;
 color: #FFFFFF;
 
 }
+
+#container2 {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 910px 252px;
+    gap: 50px;
+    position: absolute;
+    width: 1300px;
+    height: 625px;
+    top: 62px; 
+   
+}
+#container2 h1{
+    height:70px;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:86px;
+}
+.box{
+    border:2px solid rgb(224, 223, 223);
+    display:flex;
+    flex-direction: column;
+    width:226px;
+    height:335px;
+    margin:50px 0px;
+    padding: 15px;
+    gap:25px;
+    
+    /* box shadow */
+box-shadow: 12px 12px 5px rgb(199, 196, 196);
+/* box-shadow: -2px -2px 2px rgb(199, 196, 196); */
+
+}
+
+.box img{
+    width:120px;
+    height:120px;
+}
+.box h2{
+    height:80px;
+}
+
+.box h5{
+    color:black;
+    width:160px;
+}
+.box h4{
+    width:250px;
+    font-size:18px;
+}
+.box hr{
+    border-bottom: 4px solid #e76744;
+    display: block;
+    width:83px;
+}
+
+
