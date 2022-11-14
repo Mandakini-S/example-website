@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,37 +9,48 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- For star rating -->
+    <link href=
+    "https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            rel="stylesheet" />
 </head>
+
 <body>
     <header>
-     <nav>
-    <div id="logo">
-        <img src="logo.png" alt="Logo of company">
-    </div>
-    <ul id="navbar">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-     </nav>
+        <nav>
+            <div id="logo">
+                <img src="logo.png" alt="Logo of company">
+            </div>
+            <ul id="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <section id="container1">
 
-        
+
         <h5>WELCOME</h5>
         <h1>A Great Place to Receive Care</h1>
         <h4>We are with you in your worst time, leading you leading you towards the better health.</h4>
-    <button id="btn"><h5>Book an Appointment</h5></button>
+        <button id="btn">
+            <h5>Book an Appointment</h5>
+        </button>
 
     </section>
-    <section id="container2">
+
+    <!-- Services Container -->
+    <section class="container" id="container2">
         <h5>Our Services</h5>
         <h1>Best in Class</h1>
         <content>
-        <h4>One of the best medical institutions within Pokhara. We offer a wide range of Services with specialist care from experts.</h4>
-        </content>    
-        
+            <h4>One of the best medical institutions within Pokhara. We offer a wide range of Services with specialist
+                care from experts.</h4>
+        </content>
+
         <div class="services">
             <div class="box">
                 <img src="Icon1.jpg" alt="Icon of Ambulance">
@@ -72,6 +84,53 @@
             </div>
         </div>
 
+        <!-- Testimonial container -->
+        <section class="container" id="container3">
+            <h5>Testimonials</h5>
+            <h1>Customer Testimonials</h1>
+            <h4>We aspire to become a hospital which can treat all the health problems of city dwellers within the city,
+                without having them to travel to other countries.</h4>
+
+            <div class="testimonial">
+                <div class="review">
+                    <img src="customer1.png" alt="Photo of Mr. Devraj Gurung">
+            <h4>If you are suffering from chronic pain, then A&B International hospital is the best plance in Nepal for occupational therapy.</h4>
+            <div class="rating">
+                <i class="fa fa-star clicked"></i>
+                <i class="fa fa-star clicked"></i>
+                <i class="fa fa-star clicked"></i>
+                <i class="fa fa-star clicked"></i>
+                <i class="fa fa-star"></i>
+            </div>
+
+            <h6>Devraj Gurung</h6>
+            <h3>Army Retired</h3>
+                </div>
+
+                <div class="review">
+                    <img src="customer2.png" alt="Photo of Miss Anita Baral">
+                    <h4>A&B International Hospital has the best in class recovery Physiotherapy which helped me recover in no time.</h4>
+                    <div class="rating">
+                        <i class="fa fa-star clicked"></i>
+                        <i class="fa fa-star clicked"></i>
+                        <i class="fa fa-star clicked"></i>
+                        <i class="fa fa-star clicked"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <h6>Anita Baral</h6>
+                    <h3>ML Engineer</h3>
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </section>
+
     </section>
 </body>
+
 </html>

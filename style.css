@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* header section */
 header {
     
     position: absolute;
@@ -12,6 +13,7 @@ header {
     top: 0px;
 }
 
+/* navigation bar  */
 nav {
     display: flex;
     align-items: center;
@@ -52,6 +54,8 @@ nav {
     ;
 }
 
+/* Introdution section */
+
 #container1 {
     display: flex;
     flex-direction: column;
@@ -72,7 +76,7 @@ nav {
     height: 24px;
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.1px;
@@ -81,7 +85,7 @@ nav {
 }
 
  h1 {
-    width: 576px;
+    width: 747px;
     height: 160px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -134,18 +138,21 @@ color: #FFFFFF;
 
 }
 
-#container2 {
-  
+/* Services section */
+.container{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 910px 252px;
     gap: 50px;
-    position: absolute;
-    width: 1300px;
-    height: 625px;
     top: 62px; 
-   
+    height: 625px;
+    width: 1300px;
+}
+
+
+#container2 {
+    padding: 910px 252px;
+    
 }
 #container2 h1{
     height:70px;
@@ -154,13 +161,13 @@ color: #FFFFFF;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap:86px;
+    gap:60px;
 }
 .box{
     border:2px solid rgb(224, 223, 223);
     display:flex;
     flex-direction: column;
-    width:226px;
+    width:246px;
     height:335px;
     margin:50px 0px;
     padding: 15px;
@@ -168,7 +175,6 @@ color: #FFFFFF;
     
     /* box shadow */
 box-shadow: 12px 12px 5px rgb(199, 196, 196);
-/* box-shadow: -2px -2px 2px rgb(199, 196, 196); */
 
 }
 
@@ -193,5 +199,70 @@ box-shadow: 12px 12px 5px rgb(199, 196, 196);
     display: block;
     width:83px;
 }
+
+/* Testimonial section */
+h3{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    font-family: 'Montserrat', sans-serif;   
+}
+
+.testimonial h6{
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.testimonial{
+    display: flex;
+    gap:70px;
+    justify-content:space-around;
+    
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    box-shadow: 1px 1px 4px rgb(253, 211, 218);
+    align-items: center;
+    gap:10px;
+    height:400px;
+    width:400px;
+    padding: 15px;
+    margin:70px 100px;
+}
+ .testimonial img{
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+ }
+
+ .testimonial h4{
+    width:403px;
+    height:135px;
+    text-align: center;
+    
+ }
+
+ .star{
+    display: flex;
+    flex-direction: row;
+
+ }
+ .rating {
+    font-size: 23px; 
+}
+
+.clicked {
+    color: yellow;
+}
+
+
+
+
 
 
